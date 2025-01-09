@@ -2,18 +2,18 @@ package OOP;
 public class Task4 {
     public class Entity {
         public void move() {
-            System.out.println("Я передвигаюсь.");
+            System.out.println("I'm moving.");
         }
 
         public void eat(){
-            System.out.println("Я ем.");
+            System.out.println("I'm eating.");
         }
     }
 
     public class Human extends
             Entity {
         public void speak() {
-            System.out.println("Я умею общаться.");
+            System.out.println("I can communicate.");
         }
     }
 
@@ -21,7 +21,7 @@ public class Task4 {
     public class JavaDeveloper
     extends Human {
         public void code(){
-            System.out.println("Я умею общаться на Java.");
+            System.out.println("I know how to communicate in Java.");
         }
     }
 }
